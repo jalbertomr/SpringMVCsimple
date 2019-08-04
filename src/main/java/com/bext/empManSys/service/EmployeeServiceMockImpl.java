@@ -26,4 +26,9 @@ public class EmployeeServiceMockImpl implements EmployeeService {
 		return mockEmployees;
 	}
 
+	@Override
+	public void addNewEmployee(Employee employee) {
+		mockEmployees.add(employee);
+	}
+
 }

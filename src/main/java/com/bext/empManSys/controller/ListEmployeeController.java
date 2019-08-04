@@ -12,12 +12,13 @@ import org.springframework.web.servlet.ModelAndView;
 import com.bext.empManSys.domain.Employee;
 import com.bext.empManSys.service.EmployeeService;
 
+
 /**
  * Handles requests for the application home page.
  */
 @Controller
-public class EmployeeController {
-	private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
+public class ListEmployeeController {
+	private static final Logger logger = LoggerFactory.getLogger(ListEmployeeController.class);
 	
 	@Autowired
 	private EmployeeService employeeService;

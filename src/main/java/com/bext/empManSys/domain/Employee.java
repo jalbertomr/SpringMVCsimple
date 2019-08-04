@@ -6,7 +6,7 @@ public class Employee {
 	private String designacion;
 	private double sueldo;
 
-	public Employee( ) {
+	public Employee() {
 	}
 	
 	public Employee(String empId, String nombre, String designacion, double sueldo) {

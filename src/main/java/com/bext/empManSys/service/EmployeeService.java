@@ -6,4 +6,5 @@ import com.bext.empManSys.domain.Employee;
 
 public interface EmployeeService {
 	public List<Employee> getAllEmployees();
+	public void addNewEmployee(Employee employee);
 }
