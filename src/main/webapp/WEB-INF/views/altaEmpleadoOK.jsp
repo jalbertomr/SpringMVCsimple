@@ -10,6 +10,7 @@
 	<div id="EmpleadoAgregado">
 		<h3>El Empleado "${empleado.nombre}" ha sido agregado.  </h3>
 		<h3>Con id [${empleado.empId}] Designacion "${empleado.designacion}"</h3>
+		<h3>con Sueldo ${empleado.sueldo}</h3>
 	</div>
 </body>
 </html>
